@@ -1,4 +1,4 @@
-# Title
+# Microsoft Movie Project
 
 **Authors**: Mitch Allison, Matt Rubic, Brenda De Leon
 
