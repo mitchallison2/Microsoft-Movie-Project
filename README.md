@@ -10,19 +10,16 @@ We've cleaned and analyzed data sets from TheNumbers and IMDB to find the strong
 ## Business Problem
 
 We are looking to find at least 3 actionable steps to insure the greatest chance for a new movie's financial success. The questions to be answered are:
-1 - What budget provides the greatest profit or ROI?
-2 - What actors/actresses/directors lead to the greatest profit?
-3 - What genres lead to the greatest profit at differing movie budgets?
-4 - What is the best time of year to release a movie?
+* What budget provides the greatest profit or ROI?
+* What actors/actresses/directors lead to the greatest profit?
+* What genres lead to the greatest profit at differing movie budgets?
+* What is the best time of year to release a movie?
 
 ***
-Questions to consider:
-* What are the business's pain points related to this project?
-A new movie studio has no relationship with talent or catalogue of movies. We need to use our initial seed money intelligently, to foster future success.
-* How did you pick the data analysis question(s) that you did?
-We picked these questions to answer after looking at the cleaned data and spotting certain trends.
-* Why are these questions important from a business perspective?
-A new movie is expensive. We need to analyze data from the past decade of movies to maximize profit given a certain budget.
+
+* A new movie studio has no relationship with talent or catalogue of movies. We need to use our initial seed money intelligently, to foster future success.
+* We picked these questions to answer after looking at the cleaned data and spotting certain trends.
+* A new movie is expensive. We need to analyze data from the past decade of movies to maximize profit given a certain budget.
 Starting with a flop as a new studio is likely difficult to recover from without additional investment.
 ***
 
@@ -33,15 +30,11 @@ Both datasets required some cleaning, espescially in order to join them and find
 
 ***
 Questions to consider:
-* Where did the data come from, and how do they relate to the data analysis questions?
-This data is publicly available, from IMDB and TheNumbers. They relate to the questions as they are comprehensive sources for data concerning movies.
-* What do the data represent? Who is in the sample and what variables are included?
-The data represents movies and their features. This data includes variables such as actors, directors, movies, budget, and grossing.
-* What is the target variable?
-To answer our business questions, we needed to know each movie's financial information, how that movie was classified, when it was released,
+* This data is publicly available, from IMDB and TheNumbers. They relate to the questions as they are comprehensive sources for data concerning movies.
+* The data represents movies and their features. This data includes variables such as actors, directors, movies, budget, and grossing.
+* To answer our business questions, we needed to know each movie's financial information, how that movie was classified, when it was released,
 and who was associated with that movie.
-* What are the properties of the variables you intend to use?
-We intend to use the correlations of budget to worldwide profit to find the movies that are most likely to see a good return on investment(budget).
+* We intend to use the correlations of budget to worldwide profit to find the movies that are most likely to see a good return on investment(budget).
 ***
 
 ## Methods
@@ -51,29 +44,25 @@ on these columns.
 After joining the data, we were able to find relationships between genre, actors/directors, budget and release date versus worldwide profit.
 
 ***
-Questions to consider:
-* How did you prepare, analyze or model the data?
-This data required some standard cleaning to use, such as cleaning up dollar amounts from strings to integers and excluding duplicates.
+
+* This data required some standard cleaning to use, such as cleaning up dollar amounts from strings to integers and excluding duplicates.
 For our inital modeling we used standard methods of graphing data, and then breaking up data by actors/directors or genres.
-* Why is this approach appropriate given the data and the business problem?
-This approach is appropriate considering the size of the datasets. Our business problem did not have specific asks,
+* This approach is appropriate considering the size of the datasets. Our business problem did not have specific asks,
 only to provide the best advice that we can find with these datasets.
 ***
 
 ## Results
 
 We found the following answers to the business questions:
-1 - Profits generally increase as budgets increase. ROI possibility is much greater for smaller budgets(up to 100x) versus larger budgets(up to 15x).
-2 - Top actors/actresses/directors command greater profits.
-3 - For an unknown budget, musicals have the best correlation of budget to profits. For small/medium/large budgets, we recommend music/history/war genres accordingly.
-4 - June to July and November to December have the greatest average movie profits.
+* Profits generally increase as budgets increase. ROI possibility is much greater for smaller budgets(up to 100x) versus larger budgets(up to 15x).
+* Top actors/actresses/directors command greater profits.
+* For an unknown budget, musicals have the best correlation of budget to profits. For small/medium/large budgets, we recommend music/history/war genres accordingly.
+* June to July and November to December have the greatest average movie profits.
 
 ***
-Questions to consider:
-* How do you interpret the results?
-We found these results in our initial data analysis. We interpret these results as having a strong impact on a movie's profit.
-* How confident are you that your results would generalize beyond the data you have?
-We are fairly confident in our results, due to the size of the data and methods used. Although some outliers were still used in our conclusions,
+
+* We found these results in our initial data analysis. We interpret these results as having a strong impact on a movie's profit.
+* We are fairly confident in our results, due to the size of the data and methods used. Although some outliers were still used in our conclusions,
 we have to include these outliers as they give us good data points to compare to other similar movies.
 ***
 
@@ -97,15 +86,12 @@ We were a bit limited by the datasets, as IMDB only provided data for movies fro
 slightly outdated. Considering the span of movies covered, we still have good faith in this dataset and the conclusions we reached with the dataset.
 
 ***
-Questions to consider:
-* What would you recommend the business do as a result of this work?
-We would recommend the business follow our tips to maximize profit in a new movie studio. Although some of these tips may conflict
+
+* We would recommend the business follow our tips to maximize profit in a new movie studio. Although some of these tips may conflict
 (Dwayne Johnson in a musical?), following our general guidelines will help to maximize profit and reduce investment risk.
-* What are some reasons why your analysis might not fully solve the business problem?
-This analysis may not fully solve the business problem as it is a multifaceted problem. If the studio is looking for a higher-risk investment,
+* This analysis may not fully solve the business problem as it is a multifaceted problem. If the studio is looking for a higher-risk investment,
 we did not account for that. Our goal was to provide the most sound suggestion for profit maximization with minimal risk.
-* What else could you do in the future to improve this project?
-In the future, we could use more recent data to improve our observations. We would also like to look into promotional budgets to see how those may
+* In the future, we could use more recent data to improve our observations. We would also like to look into promotional budgets to see how those may
 have affected the profit of the movie. It would also be interesting to see how to optimize a movie for various audiences with additional data.
 ***
 
