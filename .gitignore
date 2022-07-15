@@ -157,13 +157,13 @@ __pycache__/
 *$py.class
 
 # Ignore ZIP
-.zip
+*.zip
 
 # Ignore CSV
-.csv
+*.csv
 
 # Ignore TSV
-.tsv
+*.tsv
 
 # Ignore DB
-.db
+*.db
