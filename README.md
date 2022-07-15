@@ -16,7 +16,7 @@ We are looking to find at least 3 actionable steps to insure the greatest chance
 * What is the best time of year to release a movie?
 
 ***
-
+Notes:
 * A new movie studio has no relationship with talent or catalogue of movies. We need to use our initial seed money intelligently, to foster future success.
 * We picked these questions to answer after looking at the cleaned data and spotting certain trends.
 * A new movie is expensive. We need to analyze data from the past decade of movies to maximize profit given a certain budget.
@@ -29,7 +29,7 @@ We used data from the IMDB SQL database to reference talent and movies. We used 
 Both datasets required some cleaning, espescially in order to join them and find trends between movies features and their financial data.
 
 ***
-Questions to consider:
+Notes:
 * This data is publicly available, from IMDB and TheNumbers. They relate to the questions as they are comprehensive sources for data concerning movies.
 * The data represents movies and their features. This data includes variables such as actors, directors, movies, budget, and grossing.
 * To answer our business questions, we needed to know each movie's financial information, how that movie was classified, when it was released,
@@ -44,7 +44,7 @@ on these columns.
 After joining the data, we were able to find relationships between genre, actors/directors, budget and release date versus worldwide profit.
 
 ***
-
+Notes:
 * This data required some standard cleaning to use, such as cleaning up dollar amounts from strings to integers and excluding duplicates.
 For our inital modeling we used standard methods of graphing data, and then breaking up data by actors/directors or genres.
 * This approach is appropriate considering the size of the datasets. Our business problem did not have specific asks,
@@ -60,7 +60,7 @@ We found the following answers to the business questions:
 * June to July and November to December have the greatest average movie profits.
 
 ***
-
+Notes:
 * We found these results in our initial data analysis. We interpret these results as having a strong impact on a movie's profit.
 * We are fairly confident in our results, due to the size of the data and methods used. Although some outliers were still used in our conclusions,
 we have to include these outliers as they give us good data points to compare to other similar movies.
@@ -86,7 +86,7 @@ We were a bit limited by the datasets, as IMDB only provided data for movies fro
 slightly outdated. Considering the span of movies covered, we still have good faith in this dataset and the conclusions we reached with the dataset.
 
 ***
-
+Notes:
 * We would recommend the business follow our tips to maximize profit in a new movie studio. Although some of these tips may conflict
 (Dwayne Johnson in a musical?), following our general guidelines will help to maximize profit and reduce investment risk.
 * This analysis may not fully solve the business problem as it is a multifaceted problem. If the studio is looking for a higher-risk investment,
