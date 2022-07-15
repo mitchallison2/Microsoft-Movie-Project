@@ -78,16 +78,16 @@ we have to include these outliers as they give us good data points to compare to
 ***
 
 ### Budget vs ROI (Low Budget)
-![graph1](./images/Budget_ROI_lowbudget.png)
+![graph1](images/Budget_ROI_lowbudget.png)
 
 ### Actor vs Profit
-![graph1](./images/Profit_Actor.png)
+![graph2](images/Profit_Actor.png)
 
 ### Genre vs Profit
-![graph1](./images/Genre_Profit.png)
+![graph3](images/Genre_Profit.png)
 
 ### Release Day vs Profit
-![graph1](./images/Day_Gross.png)
+![graph4](images/Day_Gross.png)
 
 ## Conclusions
 
