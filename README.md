@@ -97,7 +97,7 @@ have affected the profit of the movie. It would also be interesting to see how t
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./MS_Movie_Data_Analysis.ipynb) or our [presentation](./MS\ Movie\ Conclusions\ Presentation\ -\ RFC\ Dandelions.pdf).
+Please review our full analysis in [our Jupyter Notebook](./MS_Movie_Data_Analysis.ipynb) or our [presentation](./MS_conclusions_deck.pdf.pdf).
 
 For any additional questions, please contact:
 Mitch Allison
@@ -121,7 +121,7 @@ LinkedIn: linkedin.com/in/brenda-de-leon
 ```
 ├── README.md                           <- The top-level README for reviewers of this project
 ├── MS_Movie_Data_Analysis.ipynb        <- Narrative documentation of analysis in Jupyter notebook
-├── MS Movie Conclusions Presentation - RFC Dandelions.pdf         <- PDF version of project presentation
+├── MS_conclusions_deck.pdf             <- PDF version of project presentation
 ├── data                                <- Both sourced externally and generated from code
 └── images                              <- Both sourced externally and generated from code
 └── brenda_actor_relationship_analysis.ipynb                       <- EDA of actor/profit relationship
